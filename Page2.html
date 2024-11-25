@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ma troisième page</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEJZ3rTkF5wB2dTeFm6FczDaYY4I+oV2+seOBnvmlAKyW2lZ6TGHdK7Ekzxkk" crossorigin="anonymous">
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f8f9fa;
+            color: #343a40;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            width: 100%;
+            height: 250px;
+            position: relative;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-image: url('./images.jpeg'); /* Remplacez par le chemin de votre image de fond */
+            background-size: cover;
+            background-position: center;
+            color: #fff;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+        }
+        .corner-logo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            position: absolute;
+            top: 20px;
+        }
+        .corner-logo.left {
+            left: 20px;
+        }
+        .corner-logo.right {
+            right: 20px;
+        }
+        .welcome-message {
+            font-size: 36px;
+            font-weight: bold;
+            text-align: center;
+            z-index: 2;
+        }
+        .content {
+            max-width: 1200px;
+            margin: 30px auto;
+            padding: 30px;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+        }
+        .filiere-list ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .filiere-list ul li {
+            margin-bottom: 15px;
+        }
+        .filiere-list a {
+            text-decoration: none;
+            color: #007bff;
+            transition: color 0.3s ease, text-decoration 0.3s ease;
+        }
+        .filiere-list a:hover {
+            text-decoration: underline;
+            color: #0056b3;
+        }
+        h1 {
+            font-size: 2.5rem;
+            color: #007bff;
+        }
+        h2 {
+            font-size: 2rem;
+            color: #343a40;
+        }
+        h3 {
+            font-size: 1.5rem;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <img src="OIP.jpg" alt="Logo Top Left" class="corner-logo left">
+        <div class="welcome-message">Ma troisième page</div>
+        <img src="OIP (1).jpg" alt="Logo Top Right" class="corner-logo right">
+    </header>
+
+    <!-- Main Content -->
+    <div class="container content">
+        <!-- Title -->
+        <h1 class="text-center">Pigier Bénin</h1>
+        <p>L'École Pigier Bénin est un établissement privé d'enseignement supérieur situé à Cotonou, Bénin. Elle offre une variété de programmes de formation dans des domaines tels que le commerce, la gestion, les finances, le marketing, la communication, et bien plus encore. L'école est reconnue par l'État béninois et propose des diplômes de Licence et de Master professionnels.</p>
+        <p>L'École Pigier Bénin met également l'accent sur la formation en alternance, permettant aux étudiants de combiner leurs études théoriques avec une expérience pratique en entreprise. En partenariat avec des institutions comme le Conseil International d'Études Francophones (CIEF) et l'Institut Français du Bénin, l'école délivre des certifications telles que DELF, DALF, TOEFL et TOEIC.</p>
+
+        <!-- Filières -->
+        <h2 class="text-center my-4">Filières de Pigier en 2024</h2>
+
+        <!-- Filières de Licence -->
+        <div class="filiere-list">
+            <h3>Filières de Licence :</h3>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/licence-audit-controle-gestion" target="_blank">Audit et Contrôle de Gestion (CG)</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/licence-banque-finance-entreprise" target="_blank">Banque et Finance d'Entreprise (BF)</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/licence-commerce-international-e-business" target="_blank">Commerce International et E-Business (CIB)</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/licence-communication-digitale-webmarketing" target="_blank">Communication Digitale & Webmarketing (CDM)</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/licence-droit-affaires-carrieres-judiciaires" target="_blank">Droit des Affaires et Carrières Judiciaires (DCJ)</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/licence-gestion-transports-logistique" target="_blank">Gestion des Transports et Logistique (GTL)</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/licence-management-ressources-humaines" target="_blank">Management des Ressources Humaines (MRH)</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/licence-management-entreprises" target="_blank">Management des Entreprises (ME)</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/licence-marketing-communication-multimedia" target="_blank">Marketing Communication & Multimédia (MCM)</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/licence-reseaux-informatiques-mobilite-securite" target="_blank">Réseaux Informatiques Mobilité et Sécurité (RIM)</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/licence-reseaux-genie-logiciel" target="_blank">Réseaux et Génie Logiciel (RGL)</a></li>
+            </ul>
+
+            <!-- Filières de Master -->
+            <h3 class="my-4">Filières de Master :</h3>
+            <ul class="list-group">
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/master-intelligence-artificielle-big-data" target="_blank">Intelligence Artificielle et Big Data</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/master-securite-systemes-informatiques" target="_blank">Sécurité des Systèmes Informatiques</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/master-genie-informatique-reseaux" target="_blank">Génie Informatique & Réseaux</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/master-transport-supply-chain" target="_blank">Transport & Supply Chain</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/master-expertise-commerciale-business-development" target="_blank">Expertise Commerciale & Business Development</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/master-management-qualite-projets" target="_blank">Management de la Qualité & des Projets</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/master-fiscalite-droit-affaires" target="_blank">Fiscalité & Droit des Affaires</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/master-communication-marketing" target="_blank">Communication & Marketing</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/master-audit-controle-gestion" target="_blank">Audit & Contrôle de Gestion</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/master-finance-assurance" target="_blank">Finance & Assurance</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/master-management-entreprises" target="_blank">Management des Entreprises</a></li>
+                <li class="list-group-item"><a href="https://www.pigierbenin.com/master-management-ressources-humaines" target="_blank">Management des Ressources Humaines</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS (optionnel pour certains composants interactifs) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pzjw8f+ua7Kw1TIq0v8FqQ1l6hFYz4Rbxw9EwJxKfu3+x6lqV8St0lxQzW38k7gR" crossorigin="anonymous"></script>
+</body>
+</html>

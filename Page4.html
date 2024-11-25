@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableau des Filières</title>
+    <!-- Lien vers Bootstrap pour un design simple -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            background-color: #f4f4f9;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1 {
+            margin-bottom: 30px;
+            color: #007bff;
+        }
+        .table-container {
+            margin-top: 20px;
+        }
+        .table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        th, td {
+            padding: 12px;
+            text-align: center;
+            border: 1px solid #ddd;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        td {
+            background-color: #fff;
+        }
+        /* Classes pour les tailles de colonnes aléatoires */
+        .col-random-1 {
+            width: 20%;
+        }
+        .col-random-2 {
+            width: 30%;
+        }
+        .col-random-3 {
+            width: 25%;
+        }
+        .col-random-4 {
+            width: 35%;
+        }
+        .col-random-5 {
+            width: 40%;
+        }
+        .col-random-6 {
+            width: 15%;
+        }
+        /* Style pour les lignes colorées */
+        .filiere-1 {
+            background-color: #ffcccb; /* Rouge clair */
+        }
+        .filiere-2 {
+            background-color: #cce5ff; /* Bleu clair */
+        }
+        .filiere-3 {
+            background-color: #d4edda; /* Vert clair */
+        }
+        .filiere-4 {
+            background-color: #fff3cd; /* Jaune pâle */
+        }
+        .filiere-5 {
+            background-color: #f8d7da; /* Rose pâle */
+        }
+        .filiere-6 {
+            background-color: #d1ecf1; /* Bleu très pâle */
+        }
+        .filiere-7 {
+            background-color: #e2e3e5; /* Gris clair */
+        }
+        .filiere-8 {
+            background-color: #e9ecef; /* Gris plus clair */
+        }
+        .filiere-9 {
+            background-color: #fff5b1; /* Jaune vif */
+        }
+        .filiere-10 {
+            background-color: #d1e7dd; /* Vert pastel */
+        }
+        .filiere-11 {
+            background-color: #c9daf8; /* Bleu pastel */
+        }
+    </style>
+</head>
+<body>
+
+    <h1 class="text-center">Tableau des Filières</h1>
+
+    <div class="container table-container">
+        <table class="table table-bordered">
+            <thead>
+                <tr>
+                    <th>Filière</th>
+                    <th>Durée</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Ligne 1 : Audit et Contrôle de Gestion -->
+                <tr class="filiere-1">
+                    <td class="col-random-1">Audit et Contrôle de Gestion (CG)</td>
+                    <td class="col-random-2">3 ans</td>
+                </tr>
+                <!-- Ligne 2 : Banque et Finance d'Entreprise -->
+                <tr class="filiere-2">
+                    <td class="col-random-2">Banque et Finance d'Entreprise (BF)</td>
+                    <td class="col-random-1">3 ans</td>
+                </tr>
+                <!-- Ligne 3 : Commerce International et E-Business -->
+                <tr class="filiere-3">
+                    <td class="col-random-3">Commerce International et E-Business (CIB)</td>
+                    <td class="col-random-2">3 ans</td>
+                </tr>
+                <!-- Ligne 4 : Communication Digitale & Webmarketing -->
+                <tr class="filiere-4">
+                    <td class="col-random-2">Communication Digitale & Webmarketing (CDM)</td>
+                    <td class="col-random-3">3 ans</td>
+                </tr>
+                <!-- Ligne 5 : Droit des Affaires et Carrières Judiciaires -->
+                <tr class="filiere-5">
+                    <td class="col-random-4">Droit des Affaires et Carrières Judiciaires (DCJ)</td>
+                    <td class="col-random-1">4 ans</td>
+                </tr>
+                <!-- Ligne 6 : Gestion des Transports et Logistique -->
+                <tr class="filiere-6">
+                    <td class="col-random-1">Gestion des Transports et Logistique (GTL)</td>
+                    <td class="col-random-2">3 ans</td>
+                </tr>
+                <!-- Ligne 7 : Management des Ressources Humaines -->
+                <tr class="filiere-7">
+                    <td class="col-random-3">Management des Ressources Humaines (MRH)</td>
+                    <td class="col-random-2">3 ans</td>
+                </tr>
+                <!-- Ligne 8 : Management des Entreprises -->
+                <tr class="filiere-8">
+                    <td class="col-random-2">Management des Entreprises (ME)</td>
+                    <td class="col-random-4">3 ans</td>
+                </tr>
+                <!-- Ligne 9 : Marketing Communication & Multimédia -->
+                <tr class="filiere-9">
+                    <td class="col-random-3">Marketing Communication & Multimédia (MCM)</td>
+                    <td class="col-random-2">3 ans</td>
+                </tr>
+                <!-- Ligne 10 : Réseaux Informatiques Mobilité et Sécurité -->
+                <tr class="filiere-10">
+                    <td class="col-random-2">Réseaux Informatiques Mobilité et Sécurité (RIM)</td>
+                    <td class="col-random-4">3 ans</td>
+                </tr>
+                <!-- Ligne 11 : Réseaux et Génie Logiciel -->
+                <tr class="filiere-11">
+                    <td class="col-random-4">Réseaux et Génie Logiciel (RGL)</td>
+                    <td class="col-random-2">3 ans</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Lien vers Bootstrap JS (facultatif, pour des fonctionnalités supplémentaires) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
